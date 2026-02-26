@@ -2,3 +2,20 @@ Name: Tags
 Type: FolderType
 Children:
 - File: Controller_Tags/Controller_Tags.yaml
+- Name: RAEtherNet_IPTag1
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "Distance"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
