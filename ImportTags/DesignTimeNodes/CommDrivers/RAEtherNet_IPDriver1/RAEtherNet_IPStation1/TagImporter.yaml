@@ -15,4 +15,7 @@ Children:
 - Name: FilePath
   Type: BaseDataVariableType
   DataType: AbsoluteResourceUri
-  Value: "file:///C:/Projects/PF525.ACD"
+- Name: Mode
+  Type: BaseDataVariableType
+  DataType: FetchModes
+  Value: 1
