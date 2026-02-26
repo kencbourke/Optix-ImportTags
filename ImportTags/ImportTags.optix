@@ -34,16 +34,20 @@ Project:
    Uri: 'urn:FTOptix:RAEtherNetIP'
    Module: FTOptix.RAEtherNetIP
    Version: 7.0
+  9:
+   Uri: 'urn:FTOptix:CommunicationDriver'
+   Module: FTOptix.CommunicationDriver
+   Version: 3.0
  Statistics:
-  TotalNodeCount: 126
-  Objects: 74
+  TotalNodeCount: 155
+  Objects: 80
   ObjectTypes: 1
-  Variables: 51
+  Variables: 74
   VariableTypes: 0
   DataTypes: 0
   Methods: 0
-  References: 0
+  References: 6
   ReferenceTypes: 0
-  Files: 23
+  Files: 27
  Nodes:
  - File: Nodes/ImportTags.yaml
